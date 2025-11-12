@@ -29,3 +29,15 @@ Enter c: 8
 the equation can not be factored
 
 """
+import math
+a = input ("Please input an number for a")
+b = input ("Please input an number for b")
+c = input ("Please input an number for c")
+a = int(a)
+b = int(b)
+c = int(c)
+d = b**2 - 4 * a * c
+if d >= 0:
+    print("The equation can be factored")
+if d < 0:
+    print("The equation can not be factored")

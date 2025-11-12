@@ -33,3 +33,18 @@ that is an obtuse triangle
 
 
 """
+
+a = input("Please input one side of a triangle")
+b = input("Please input another side of a triangle")
+c = input("Please input the hypotenuse")
+a = int(a)
+b = int(b)
+c = int(c)
+if c**2 == (a**2 + b**2):
+    print("That is a right triangle")
+
+if (a**2+b**2) < c**2:
+    print("That is an obtuse triangle")
+
+if (a**2 + b**2) > c**2:
+    print("That is an acute triangle")
